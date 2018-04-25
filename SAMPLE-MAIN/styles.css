@@ -1,0 +1,235 @@
+body{
+	background:url("bg.gif") no-repeat center center;
+
+}
+form {
+	position:absolute;
+	left:150px;
+	
+}
+p{
+	display:block;
+	width:630px;
+}
+#h1ctr{
+
+	margin-left:250px;
+}
+
+hr{
+	shade:noshade;
+	position:absolute;
+	left:-15px;
+	height:3px;
+	border:0px;
+	width:650px;
+	background-color:#472313;
+}
+#txtsz{
+	width:300px;
+	height:25px;
+}
+#btnsz{
+	width:70px;
+	height:35px;
+}
+#container{
+	position:absolute;
+	margin-top:-8px;
+	width:994px;
+	height:972px;
+	left:50%;
+	margin-left:-497px;
+	
+}
+#start1{
+	height:100px;
+	width:100px;
+	background-image:url("logo.png");
+	background-repeat:no-repeat;
+	position:absolute;
+	left:50%;
+	margin-left:-45;
+	margin-top:285px;
+	cursor: pointer;
+	transition-property:transform,margin-top;
+	transition-duration:700ms,500ms;
+	transition-delay:0ms,500ms;
+	
+	
+}
+#menu{
+	background-image:url("menu.jpg");
+	width:315px;
+	height:786px;
+	background-repeat:repeat-y repeat-x;
+	transition:all 600ms ease-in-out;
+	transition-delay:700ms;
+	position:absolute;
+	left:50%;
+	margin-left:-157px;
+	margin-top:-8px;
+	box-shadow: 10px 10px 14px -5px rgba(0,0,0,0.75);
+	z-index:10;
+}
+
+#header{
+	width:680px;
+	height:135px;
+	background-image:url("wpp.jpg");
+	background-repeat:no-repeat;
+	background-color:red;
+	position:absolute;
+	background-position:top right;
+	left:315px;
+	margin-top:0px;
+	filter: grayscale(100%);
+	visibility: hidden;
+	opacity:0;
+	transition-property:opacity,visibility,filter,background-position;
+	transition-duration:800ms,800ms,800ms,500ms;
+	transition-delay:700ms,700ms,0ms,0ms;
+	transition-timing-function:linear,linear,linear,linear;
+	cursor: auto;
+	box-shadow: 10px 10px 14px -5px rgba(0,0,0,0.75);
+	z-index:2;
+}
+#header:hover{
+	filter:none;
+	background-position:top -25px right -25px ;
+}
+
+#navi{
+	height:300px;
+	width:200px;
+	position:absolute;
+	top:220px;
+	left:50%;
+	margin-left:-100px;
+	cursor: auto;
+	visibility:hidden;
+	opacity:0;
+	transition:all 600ms linear;
+	transition-delay:1000ms;
+}
+#butto{
+	height:43px;
+	width:160px;
+	position:absolute;
+	 background-image:url('buttonins.png');
+	left:21px;
+	cursor:pointer;
+	transition:background-image 540ms ease;
+}
+#butto:hover{
+	background-image:url("buttonins-hover.png");
+}
+#buttdel{
+	height:43px;
+	width:160px;
+	position:absolute;
+	 background-image:url('buttondel.png');
+	left:21px;
+	cursor:pointer;
+	transition:background-image 540ms ease;
+}
+#buttdel:hover{
+	background-image:url("buttondel-hover.png");
+}
+#buttmod{
+	height:43px;
+	width:160px;
+	position:absolute;
+	 background-image:url('buttonmod.png');
+	left:21px;
+	cursor:pointer;
+	transition:background-image 540ms ease;
+}
+#buttmod:hover{
+	background-image:url("buttonmod-hover.png");
+}
+#buttdisp{
+	height:43px;
+	width:160px;
+	position:absolute;
+	 background-image:url('buttondisp.png');
+	left:21px;
+	cursor:pointer;
+	transition:background-image 540ms ease;
+}
+#buttdisp:hover{
+	background-image:url("buttondisp-hover.png");
+}
+#page{
+	height:643px;
+	width:680px;
+	position:absolute;
+	background-image:url("screenshot.jpg");
+	background-repeat:no-repeat;
+	background-position:left -1150px top;
+	left:315px;
+	top:135px;
+
+	transition-property:background-position,box-shadow;
+	transition-duration:800ms,800ms;
+	transition-delay:800ms,1400ms;
+	border-radius: 0px 0px 56px 0px;
+}
+#welc{
+	height:750px;
+	width:756px;
+	position:absolute;
+	background-repeat:no-repeat;
+	left:30px;
+	top:15px;
+	visibility:hidden;
+	opacity:0;
+	transition:opacity 600ms linear;
+	transition-delay:1300ms;
+	
+}
+#inser{
+	height:750px;
+	width:756px;
+	position:absolute;
+	background-repeat:no-repeat;
+	left:30px;
+	top:15px;
+	visibility:hidden;
+	opacity:0;
+	transition:opacity 600ms linear;
+	
+}
+#dele{
+	height:750px;
+	width:756px;
+	position:absolute;
+	background-repeat:no-repeat;
+	left:30px;
+	top:15px;
+	visibility:hidden;
+	opacity:0;
+	transition:opacity 600ms linear;
+}
+#mod{
+	height:750px;
+	width:756px;
+	position:absolute;
+	background-repeat:no-repeat;
+	left:30px;
+	top:15px;
+	visibility:hidden;
+	opacity:0;
+	transition:opacity 600ms linear;
+}
+#disp{
+	height:750px;
+	width:756px;
+	position:absolute;
+	background-repeat:no-repeat;
+	left:30px;
+	top:15px;
+	visibility:hidden;
+	opacity:0;
+	transition:opacity 600ms linear;
+}
